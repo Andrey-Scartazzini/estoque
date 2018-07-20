@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../app/Http/Controllers/.idea/Controllers.iml" filepath="$PROJECT_DIR$/../app/Http/Controllers/.idea/Controllers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/.idea/app.iml" filepath="$PROJECT_DIR$/../app/.idea/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../config/.idea/config.iml" filepath="$PROJECT_DIR$/../config/.idea/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../database/.idea/database.iml" filepath="$PROJECT_DIR$/../database/.idea/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/routes.iml" filepath="$PROJECT_DIR$/.idea/routes.iml" />
     </modules>
   </component>
