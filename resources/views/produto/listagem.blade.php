@@ -1,4 +1,4 @@
-@extends('principal')
+@extends('templates.principal')
 @section('conteudo')
             @if(empty($produtos))
                 <div class="alert alert-danger">

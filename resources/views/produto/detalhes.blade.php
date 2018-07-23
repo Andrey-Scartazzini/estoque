@@ -1,4 +1,4 @@
-@extends('principal')
+@extends('templates.principal')
 @section('conteudo')
     <h1>Detalhes do produto: {{$p->nome}}</h1>
     <ul>

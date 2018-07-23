@@ -1,6 +1,6 @@
 nav.navbar.navbar-default{
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color: #2B2B2B;
+    border-color: #6C6C6C;
     margin-top: 10px;
 }
 nav.navbar.navbar-default a {
@@ -11,8 +11,8 @@ li p.navbar-text, a.navbar-brand {
     font-weight: bolder;
 }
 footer.footer {
-    background-color: #337ab7;
-    border-color: #2e6da4;
+    background-color: #2B2B2B;
+    border-color: #6C6C6C;
     margin-top: 55px;
     color: white;
     border-radius: 5px;
