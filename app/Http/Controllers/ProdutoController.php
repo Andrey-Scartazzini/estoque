@@ -1,9 +1,9 @@
 <?php
 
 namespace estoque\Http\Controllers;
-
 use Illuminate\Support\Facades\DB;
 use estoque\Produto;
+use estoque\Http\Requests\ProdutosRequest;
 use Request;
 
 class ProdutoController extends Controller{
@@ -24,13 +24,12 @@ class ProdutoController extends Controller{
     public function novo(){
         return view('produto.formulario');
     }
-    public function adiciona(){
-        Produto::create(Request::all());
-
+    public function adiciona(ProdutosRequest $request){
+        Produto::create($request->all());
         return redirect()
             ->action('ProdutoController@lista')
             ->withInput(Request::only('nome'));
-    }
+}
     public function remove($id){
         $produto = Produto::find($id);
         $produto->delete();
@@ -60,4 +59,5 @@ class ProdutoController extends Controller{
             ->action('ProdutoController@lista')
             ->withInput(Request::only('id'));
     }
+
 }

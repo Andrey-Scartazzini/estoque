@@ -23,7 +23,7 @@
                             <td><a href="{{action('ProdutoController@remove', $p->id)}}"><span class="glyphicon glyphicon-trash"></span></a></td>
                             <td><a href="/produtos/alterar/{{$p->id}}"><span class="glyphicon glyphicon-pencil"></span></a></td>
                         </tr>
-                    @endforeach #Lista
+                    @endforeach
                 </table>
             @endif
             <h4>
